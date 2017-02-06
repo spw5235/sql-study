@@ -30,14 +30,14 @@ What characters denote optional parts of a command?
 Show the characters and give their name.
 
 ```md
-<!-- replace this comment with your answer -->
+The optional parts of a command include a dash (-), a backslash (\) or a comment (--).
 ```
 
 What characters indicate a possibly repeating element in a command?
 Show the characters and give their name.
 
 ```md
-<!-- replace this comment with your answer -->
+DISTINCT command.  It is used with the SELECT command when retrieving information.
 ```
 
 ## Creating or removing a database
@@ -45,13 +45,13 @@ Show the characters and give their name.
 What shell command would you execute to create a database named `mydb`?
 
 ```sh
-# replace this comment with your answer
+createdb mydb
 ```
 
 What shell command would you execute to remove a database named `mydb`?
 
 ```sh
-# replace this comment with your answer
+DROP DATABASE mydb
 ```
 
 ## Creating or removing a table
@@ -59,13 +59,13 @@ What shell command would you execute to remove a database named `mydb`?
 What two SQL keywords precede the table name when creating a database table?
 
 ```sql
-/* replace this comment with your answer */
+CREATE TABLE <table name>.
 ```
 
 What is the SQL command to remove a database table named `mytable`?
 
 ```sql
-/* replace this comment with your answer */
+DROP TABLE mytable;
 ```
 
 ## Table row CRUD
@@ -74,23 +74,25 @@ What two SQL keywords precede the table name when populating
 a database table with rows?
 
 ```sql
-/* replace this comment with your answer */
+INSERT INTO <tablename>
 ```
 
 What SQL keyword starts the command to retrieve data from a database table?
 
 ```sql
-/* replace this comment with your answer */
+SELECT
 ```
 
 What SQL command is used to update existing rows in a database table?
 
 ```sql
-/* replace this comment with your answer */
+UPDATE <TABLENAME>
+    SET var_name = value;
+
 ```
 
 What SQL command is used to remove rows from a database table?
 
 ```sql
-/* replace this comment with your answer */
+DELETE FROM <tablename> WHERE cell_name = 'value';
 ```
